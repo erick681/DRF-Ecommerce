@@ -1,0 +1,50 @@
+# Arquivos compilados / otimizados / DLL
+__pycache__/
+*.py[cod]
+# Extensões C
+*.so
+venv/
+# Distribuição / empacotamento
+.eggs
+dist/
+build/
+develop-eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+# Logs do instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Relatórios de testes unitários / cobertura
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Traduções
+*.mo
+
+# Coisas do Django
+*.log
+*.pot
+
+# Arquivos do IDE
+.idea/
+.vscode/
+
+# Configuração local
+local.py
+env/
+.env  # Importante: exclua o arquivo .env por motivos de segurança
+
+# Documentação Sphinx
+docs/_build/
+
+# pytest
+.pytest_cache/
+db.sqlite
